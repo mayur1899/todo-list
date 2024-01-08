@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#mob{
+    width: 300px;
+    height: 500px;
+    border: 2px solid #0099ff;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+#input-con{
+    display: flex;
+    flex-direction: column;
+}
+
+#input-con input{
+    margin: 3px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#btn{
+    width: 250px;
+    height: 27px;
+    background-color: #0099ff;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn:active{
+    scale: 94%;
+}
+
+#work-con{
+    width:90%;
+    margin-top: 10px;
+    height: 350px;
+    border: 2px solid #0099ff;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+.con{
+    width: 230px;
+    height: 120px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin: 15px 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.con h4{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px #0000009c;
+    font-size: 25px;
+}
+
+.con p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(0, 225, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
